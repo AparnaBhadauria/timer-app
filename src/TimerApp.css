@@ -1,0 +1,47 @@
+.timer-app {
+    display: flex;
+    background-color: rgb(242, 242, 248);
+  }
+  
+  .timer-list {
+    flex: 1;
+    padding: 20px;
+    border-right: 1px solid #060606;
+  }
+  
+  .timer-form {
+    flex: 1;
+    padding: 30px;
+  }
+  
+  .timer{
+    margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.button {
+    margin-top: 10px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .add-button {
+    background-color: green;
+  }
+  
+  .add-button:hover {
+    background-color: darkgreen;
+  }
+  
+  .delete-button {
+    background-color: red;
+  }
+  
+  .delete-button:hover {
+    background-color: darkred;
+  }
